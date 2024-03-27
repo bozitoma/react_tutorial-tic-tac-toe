@@ -1,7 +1,7 @@
 {
   "name": "react.dev",
   "version": "0.0.0",
-  "main": "/src/index.js",
+  "main": "/src/index.ts",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -13,7 +13,12 @@
     "react-dom": "^18.0.0",
     "react-scripts": "^5.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "@types/react": "^18.2.72",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^3.9.10"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -25,5 +30,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "tutorial",
+  "repository": {
+    "type": "git",
+    "url": "git"
+  },
+  "keywords": [
+    "sample"
+  ],
+  "author": "sample",
+  "license": "ISC"
 }

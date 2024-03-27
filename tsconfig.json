@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "target": "es2018", // コンパイルする ECMAScript のバージョン
+    "module": "commonjs", // モジュールシステム
+    "rootDir": "./src", // ソースファイルが置かれているディレクトリ
+    "outDir": "./dist", // トランスパイルされたファイルを出力するディレクトリ
+    "esModuleInterop": true, // default exportを使用するための設定
+    "strict": true // 厳格な型チェックオプション
+  },
+  "include": ["src"], // コンパイルするファイルのパターン
+  "exclude": ["node_modules", ".history"] // コンパイルから除外するファイル
+}
